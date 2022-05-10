@@ -153,11 +153,11 @@ int main(int argc, char const *argv[])
         ImGui::SameLine();
         ImGui::Text("#nodes = %lu", fg.nodes.size());
         ImGui::Separator();
-        ImGui::DragFloat("Origin Suction", &fg.g_os, 0.001f);
-        ImGui::DragFloat("Friction Damping", &fg.g_fd, 0.001f);
-        ImGui::DragFloat("Node Repelling", &fg.g_nr, 0.001f);
+        ImGui::DragFloat("Friction Damping", &fg.g_fr, 0.001f);
+        ImGui::DragFloat("Random Movement", &fg.g_rm, 0.001f);
+        ImGui::DragFloat("Home Sickness", &fg.g_hs, 0.001f);
+        ImGui::DragFloat("Personal Space", &fg.g_ps, 0.001f);
         ImGui::DragFloat("Edge Stiffness", &fg.g_es, 0.001f);
-        ImGui::DragFloat("Random Noise", &fg.g_rn, 0.001f);
         ImGui::DragFloat("Edge Alignment", &fg.g_ea, 0.001f);
         ImGui::Separator();
         
@@ -166,7 +166,7 @@ int main(int argc, char const *argv[])
             static ScrollingBuffer sdata( 1000 );
             sdata.AddPoint(time, fg.movement);
             ImPlot::SetupAxisLimits(ImAxis_X1,time - sdata.Data.size() * timer.target.count(), time, ImGuiCond_Always);
-            ImPlot::SetupAxisLimits(ImAxis_Y1,0,8,ImGuiCond_Always);
+            ImPlot::SetupAxisLimits(ImAxis_Y1,0,6,ImGuiCond_Always);
             ImPlot::SetNextFillStyle(IMPLOT_AUTO_COL,0.5f);
             ImPlot::PlotShaded("", &sdata.Data[0].x, &sdata.Data[0].y, sdata.Data.size(), -INFINITY, sdata.Offset, 2 * sizeof(float));
             ImPlot::EndPlot();

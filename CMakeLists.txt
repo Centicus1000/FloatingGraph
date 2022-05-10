@@ -18,8 +18,14 @@ set(FLOAT_GRAPH_SOURCE_FILES
     src/imgui_impl_opengl3.cpp
     src/Timer.cpp
 )
+set(FLOAT_GRAPH_HEADER_FILES
+    header/FloatGraph.hpp
+    header/imgui_impl_glfw.h
+    header/imgui_impl_opengl3.h
+    header/Timer.h
+)
 
-add_executable(FloatGraph ${FLOAT_GRAPH_SOURCE_FILES})
+add_executable(FloatGraph ${FLOAT_GRAPH_SOURCE_FILES} ${FLOAT_GRAPH_HEADER_FILES})
 target_include_directories(FloatGraph PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/extern ${CMAKE_CURRENT_SOURCE_DIR}/header)
 target_link_libraries(FloatGraph PUBLIC vml imgui glfw glad)
 

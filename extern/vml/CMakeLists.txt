@@ -6,6 +6,7 @@ SET(VML_HEADER_FILES
    basics.h
    vec2.h
    graph.h
+   parse.h
 )
 
 add_library(vml ${VML_SOURCE_FILES} ${VML_HEADER_FILES})

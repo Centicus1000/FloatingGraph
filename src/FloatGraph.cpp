@@ -96,15 +96,16 @@ void FloatGraph::update(float dt)
     {
         Node& x{ *nodes[i] };
         
-        // Origin Suction
-        x.accel += g_os * -x.pos;
+        // Friction
+        x.accel += g_fr * -x.speed;
         
-        // Friction Damping
-        x.accel += g_fd * -x.speed;
+        // Random Movement
+        x.accel += g_rm * random_vec2();
         
-        // Random Noise
-        x.accel += g_rn * random_vec2();
+        // Home Sickness
+        x.accel += g_hs * -x.pos;
         
+        // Personal Space
         for (Key j{ i+1 }; j<nodes.size(); j++)
         {
             Node& y{ *nodes[j] };
@@ -112,8 +113,8 @@ void FloatGraph::update(float dt)
             vml::vec2 d{ x.pos - y.pos };
             float n{ d.norm() };
             vml::vec2 a{ d / (n*n*n) };
-            x.accel += g_nr * a;
-            y.accel -= g_nr * a;
+            x.accel += g_ps * a;
+            y.accel -= g_ps * a;
         }
         
     }

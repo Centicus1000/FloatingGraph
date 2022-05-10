@@ -25,12 +25,12 @@ class FloatGraph : public vml::Graph< Node* >
 {
 public:
     // attributes
-    float g_os{ .1f }; // factor for origin suction
-    float g_fd{ .4f }; // factor for friction damping
-    float g_nr{ .2f }; // factor for node repelling
-    float g_es{ .4f }; // factor for edge stiffnes
-    float g_rn{ .1f }; // factor for random noise
-    float g_ea{ .1f }; // factor for edge alignment
+    float g_fr{ .4f }; // factor for friction
+    float g_rm{ 1.f }; // factor for random movement
+    float g_hs{ .1f }; // factor for home sickness
+    float g_ps{ .3f }; // factor for personal space
+    float g_es{ .2f }; // factor for edge stiffness
+    float g_ea{ .3f }; // factor for edge alignment
 
     float movement{ 0.f };
     
