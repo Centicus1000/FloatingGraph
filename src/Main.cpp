@@ -160,7 +160,7 @@ int main(int argc, char const *argv[])
         ImGui::DragFloat("Edge Stiffness", &fg.g_es, 0.001f);
         ImGui::DragFloat("Edge Alignment", &fg.g_ea, 0.001f);
         ImGui::Separator();
-        
+
         if (ImPlot::BeginPlot("Movement",ImVec2(-1, 150)))
         {
             static ScrollingBuffer sdata( 1000 );
@@ -172,7 +172,7 @@ int main(int argc, char const *argv[])
             ImPlot::EndPlot();
 
         }
-        
+
         ImGui::EndChild();
 
         ImGui::End();

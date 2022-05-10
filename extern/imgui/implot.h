@@ -1034,6 +1034,8 @@ IMPLOT_API int GetColormapSize(ImPlotColormap cmap = IMPLOT_AUTO);
 // Returns a color from a colormap given an index >= 0 (modulo will be performed).
 IMPLOT_API ImVec4 GetColormapColor(int idx, ImPlotColormap cmap = IMPLOT_AUTO);
 // Sample a color from the current colormap given t between 0 and 1.
+IMPLOT_API ImU32 SampleColormapU32(float t, ImPlotColormap cmap = IMPLOT_AUTO);
+// Sample a color from the current colormap given t between 0 and 1.
 IMPLOT_API ImVec4 SampleColormap(float t, ImPlotColormap cmap = IMPLOT_AUTO);
 
 // Shows a vertical color scale with linear spaced ticks using the specified color map. Use double hashes to hide label (e.g. "##NoLabel").

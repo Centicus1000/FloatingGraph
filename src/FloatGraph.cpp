@@ -50,7 +50,8 @@ void FloatGraph::plot() const
     {
         const Node& n{ *nodes[k] };
         auto c{ n.coords() };
-        ImPlot::GetPlotDrawList() -> AddCircleFilled(c, 10.f, IM_COL32(105, 73, 110, 255));
+        ImU32 col{ ImPlot::SampleColormapU32(5e-1f*n.speed.norm(), ImPlotColormap_Plasma) };
+        ImPlot::GetPlotDrawList() -> AddCircleFilled(c, 10.f, col);
         ImPlot::Annotation(n.pos.x,n.pos.y,ImVec4(0,0,0,0),ImVec2(0,0),false,"%s", std::to_string(k).c_str());
     }
 }
