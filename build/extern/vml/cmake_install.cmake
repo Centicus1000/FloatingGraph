@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vincirist/projects/FloatGraph/extern/vml
+# Install script for directory: /Users/vincirist/projects/FloatingGraph/extern/vml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -31,4 +31,11 @@ endif()
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
+
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
+endif()
+
+set(CMAKE_BINARY_DIR "/Users/vincirist/projects/FloatingGraph/build")
 

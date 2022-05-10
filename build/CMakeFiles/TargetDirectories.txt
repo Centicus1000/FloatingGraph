@@ -1,7 +1,7 @@
-/Users/vincirist/projects/FloatGraph/build/CMakeFiles/FloatGraph.dir
-/Users/vincirist/projects/FloatGraph/build/CMakeFiles/ALL_BUILD.dir
-/Users/vincirist/projects/FloatGraph/build/CMakeFiles/ZERO_CHECK.dir
-/Users/vincirist/projects/FloatGraph/build/extern/glad/CMakeFiles/glad.dir
-/Users/vincirist/projects/FloatGraph/build/extern/glfw/CMakeFiles/glfw.dir
-/Users/vincirist/projects/FloatGraph/build/extern/imgui/CMakeFiles/imgui.dir
-/Users/vincirist/projects/FloatGraph/build/extern/vml/CMakeFiles/vml.dir
+/Users/vincirist/projects/FloatingGraph/build/CMakeFiles/FloatGraph.dir
+/Users/vincirist/projects/FloatingGraph/build/CMakeFiles/ALL_BUILD.dir
+/Users/vincirist/projects/FloatingGraph/build/CMakeFiles/ZERO_CHECK.dir
+/Users/vincirist/projects/FloatingGraph/build/extern/glad/CMakeFiles/glad.dir
+/Users/vincirist/projects/FloatingGraph/build/extern/glfw/CMakeFiles/glfw.dir
+/Users/vincirist/projects/FloatingGraph/build/extern/imgui/CMakeFiles/imgui.dir
+/Users/vincirist/projects/FloatingGraph/build/extern/vml/CMakeFiles/vml.dir
