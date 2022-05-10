@@ -1,0 +1,1715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		39A5297CCC0D4604A029721F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1C8DA864446F4357813D80BE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				96D49EA792204191A2F1C713 /* CMake Rules */,
+			);
+			dependencies = (
+				B4B199B2FDC7474289C240C0 /* PBXTargetDependency */,
+				2B1CB64982B14F56BC7D8542 /* PBXTargetDependency */,
+				24552A2E0B244E76A3DD017A /* PBXTargetDependency */,
+				C6A17CBAE3424D87BA6C08A0 /* PBXTargetDependency */,
+				14B3757A82804B8EAAB0A13C /* PBXTargetDependency */,
+				26325B56E4054C0A9DA42D69 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		46D8FEC829D44603BC571736 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 00315B050A074F67888D44D8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				79469749E04146C89E549954 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0125812A2A6846A4B5915E77 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_internal.h */ = {isa = PBXBuildFile; fileRef = BA3C4CF93A4A41E5AFF31D26 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_internal.h */; };
+		01404FDF2CCC4471A2AA1783 /* /Users/vincirist/projects/FloatGraph/extern/glad/src/gl.c */ = {isa = PBXBuildFile; fileRef = 9A187A32BCEA4F6F9E03D4F9 /* /Users/vincirist/projects/FloatGraph/extern/glad/src/gl.c */; };
+		04C9DDC716394E86BBA4D2DB /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_demo.cpp */ = {isa = PBXBuildFile; fileRef = 30101A293A964C6EAC4B29C9 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_demo.cpp */; };
+		090C5F4CCC774F6AADCF0849 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec4.cpp */ = {isa = PBXBuildFile; fileRef = 8852B3F06B5E4880B8D8C1DA /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec4.cpp */; };
+		095D08952C744368BE4F0420 /* /Users/vincirist/projects/FloatGraph/extern/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 14D11A932DFB4C07B16D208C /* /Users/vincirist/projects/FloatGraph/extern/glfw/include/GLFW/glfw3.h */; };
+		0A9830EA902D48E2A290D528 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/parse.cpp */ = {isa = PBXBuildFile; fileRef = 7250ED6A4B8043A68FBD490B /* /Users/vincirist/projects/FloatGraph/extern/vml/src/parse.cpp */; };
+		0E32544BACF340C1A6569BF4 /* /Users/vincirist/projects/FloatGraph/extern/vml/basics.h */ = {isa = PBXBuildFile; fileRef = 3056A76AA71542968F7EDF45 /* /Users/vincirist/projects/FloatGraph/extern/vml/basics.h */; };
+		1220A1C2DA4446F0887B3F53 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot.h */ = {isa = PBXBuildFile; fileRef = 34D763205C78421AAAF9EB9D /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot.h */; };
+		14B3F595A8124AD0A89FCB52 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 0DA2CDCE24A24E81A266DAB5 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/monitor.c */; };
+		156F05ABEDE94735B5FC5B87 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec2.cpp */ = {isa = PBXBuildFile; fileRef = 29EBD026BFB44A56936F94DF /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec2.cpp */; };
+		159DCD6A29C141CA8E19486D /* /Users/vincirist/projects/FloatGraph/extern/vml/mat4.h */ = {isa = PBXBuildFile; fileRef = F63090B89A454F2093F76925 /* /Users/vincirist/projects/FloatGraph/extern/vml/mat4.h */; };
+		173EE25686774C7FB86EA2A5 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = 438929B2CA3E4DCFACBCEF20 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_widgets.cpp */; };
+		1F648B5E8CEA4EA2B7403776 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/mat4.cpp */ = {isa = PBXBuildFile; fileRef = 6B846AF4B7754D378A41FCF0 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/mat4.cpp */; };
+		225BEF02D23D42A7908D0860 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/base.cpp */ = {isa = PBXBuildFile; fileRef = F5AD5CB534E348FBBB7B5FE0 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/base.cpp */; };
+		22D22316C7EA4C74B9F2F143 /* /Users/vincirist/projects/FloatGraph/support/timer.cpp */ = {isa = PBXBuildFile; fileRef = FD64BE809DFD472AB31F0378 /* /Users/vincirist/projects/FloatGraph/support/timer.cpp */; };
+		2AF60F1D4E12420588DEFEC9 /* /Users/vincirist/projects/FloatGraph/extern/vml/arcshape.h */ = {isa = PBXBuildFile; fileRef = 03AE6520C4AF419780621AA7 /* /Users/vincirist/projects/FloatGraph/extern/vml/arcshape.h */; };
+		2F6D04C75C46494197CFCC74 /* /Users/vincirist/projects/FloatGraph/extern/vml/base.h */ = {isa = PBXBuildFile; fileRef = 44C2DD1009A24E4CA347B91A /* /Users/vincirist/projects/FloatGraph/extern/vml/base.h */; };
+		34FEBCC9A9344BAC9079F461 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = ED10979C7F404E92833A8C90 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_monitor.m */; };
+		367CE8D7919549DCB90FFD50 /* /Users/vincirist/projects/FloatGraph/extern/vml/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1E0F176EDF0945F384EC380B /* /Users/vincirist/projects/FloatGraph/extern/vml/CMakeLists.txt */; };
+		386F8A8689DA492FA7DBE3A5 /* /Users/vincirist/projects/FloatGraph/extern/glad/include/KHR/khrplatform.h */ = {isa = PBXBuildFile; fileRef = 29CF18B877B44D62B4E13152 /* /Users/vincirist/projects/FloatGraph/extern/glad/include/KHR/khrplatform.h */; };
+		3D0966F5E17D422B83581FAC /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_textedit.h */ = {isa = PBXBuildFile; fileRef = 8CDD31B19EA24409A4458861 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_textedit.h */; };
+		572038E103AF4CE1B5408B67 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = CCBE9AEF054741E9B5D97609 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/posix_thread.h */; };
+		577F7131D5DF4149A6D7B5FE /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = DC7796FC04344962815B34EA /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/nsgl_context.h */; };
+		58B44AF5271E46598968148D /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = 1DA0183CC6E2499C9795A1AD /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/osmesa_context.h */; };
+		5C623C991B164E18864D7D6F /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 34BD87993C344DFDB1D6632D /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/mappings.h */; };
+		5D8FDC4F4C534AEF96E35E8F /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 787995CF7B8F49CE81F5E592 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_init.m */; };
+		600A3473737B4A678A2140DA /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = B6C006077CDE42548656BA36 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/vulkan.c */; };
+		6AF7BF21B5A546D09336C9E0 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui.cpp */ = {isa = PBXBuildFile; fileRef = 97A809E884E54E42BB76E859 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui.cpp */; };
+		6E99DD3E84AF42659286020B /* /Users/vincirist/projects/FloatGraph/extern/vml/vec4.h */ = {isa = PBXBuildFile; fileRef = FF8FAF90B9B542008A415A24 /* /Users/vincirist/projects/FloatGraph/extern/vml/vec4.h */; };
+		6E9BF4F67ADC4BB6846824B7 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arcshape.cpp */ = {isa = PBXBuildFile; fileRef = 2AD5A193CFFB43968D8A03C2 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arcshape.cpp */; };
+		7145D907613B4266A2426DAA /* /Users/vincirist/projects/FloatGraph/FloatGraph.cpp */ = {isa = PBXBuildFile; fileRef = 20CD589D534441D38436B6F1 /* /Users/vincirist/projects/FloatGraph/FloatGraph.cpp */; };
+		7245BA278F20400A8517AF7E /* /Users/vincirist/projects/FloatGraph/extern/vml/vec3.h */ = {isa = PBXBuildFile; fileRef = 6CAE2942BD844C5FB4F657F2 /* /Users/vincirist/projects/FloatGraph/extern/vml/vec3.h */; };
+		76B0C1A00E0E4251858121FF /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 92D9E145E8D74EE19168F811 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/posix_thread.c */; };
+		78C8D8AF35C544C5B40834B5 /* /Users/vincirist/projects/FloatGraph/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B92334CE89CE480C904622CA /* /Users/vincirist/projects/FloatGraph/CMakeLists.txt */; };
+		7B467605BFE5433483A8DE93 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = A659D4360C8E47D785203FC2 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_joystick.m */; };
+		7BD357D68142409EB9FC283B /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_items.cpp */ = {isa = PBXBuildFile; fileRef = BC9A5EEAE2F745DE86C162E1 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_items.cpp */; };
+		7EEBCB324E534EC8B415600F /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot.cpp */ = {isa = PBXBuildFile; fileRef = 0399AF64FFF345C0A1C40E51 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot.cpp */; };
+		81BAC47DC03C48D2B5D97B54 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 8160A71639A34FF69D41EE2A /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/input.c */; };
+		9431555A184F4BA78339B45E /* /Users/vincirist/projects/FloatGraph/extern/glfw/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DE562A5030B545D9BAEAFC91 /* /Users/vincirist/projects/FloatGraph/extern/glfw/CMakeLists.txt */; };
+		9773155A463642B2883FE0A7 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui.h */ = {isa = PBXBuildFile; fileRef = 0E0FA56E76654077938EC1E2 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui.h */; };
+		988D0624918B404689AA596D /* /Users/vincirist/projects/FloatGraph/extern/imgui/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6319B7D34A964BB5A426A49F /* /Users/vincirist/projects/FloatGraph/extern/imgui/CMakeLists.txt */; };
+		9C449384BBE045488C31AB4B /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 06393F653DFF4A46BC3CA572 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/init.c */; };
+		9E8180187A644E9086E0660A /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = EBB6D736B2FC42BABC9EDF23 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/egl_context.c */; };
+		A16CBA9ECA2F4E6AB26BF44B /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_tables.cpp */ = {isa = PBXBuildFile; fileRef = FFA8D5B185EE4B5D80C4F7E4 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_tables.cpp */; };
+		A348F6139046404E8290CD33 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arc.cpp */ = {isa = PBXBuildFile; fileRef = 69636E5D6B2448798F9D7609 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arc.cpp */; };
+		A411C2231C3D408D8E49D206 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = D3BFC0712D1D4315A0D138BA /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/internal.h */; };
+		A7030F2959A84D5487D20C74 /* /Users/vincirist/projects/FloatGraph/main.cpp */ = {isa = PBXBuildFile; fileRef = 509406747A7E4F859FE5D4F0 /* /Users/vincirist/projects/FloatGraph/main.cpp */; };
+		A80EC61500E8451088F11190 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = C25400394FEA486AA9DCE1B6 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_window.m */; };
+		A8A548D228174163BB570711 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_internal.h */ = {isa = PBXBuildFile; fileRef = D444956488E0498381AF71BB /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_internal.h */; };
+		ACB0DFC98CBC452CBFBFAB32 /* /Users/vincirist/projects/FloatGraph/extern/vml/vec2.h */ = {isa = PBXBuildFile; fileRef = FE9E422086234E0D9246D0AD /* /Users/vincirist/projects/FloatGraph/extern/vml/vec2.h */; };
+		B27519A3DE0C42B28E6C2473 /* /Users/vincirist/projects/FloatGraph/extern/glad/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7837D52F9CD34EA4B113FDC1 /* /Users/vincirist/projects/FloatGraph/extern/glad/CMakeLists.txt */; };
+		B492412E37BC4E039B7B780C /* /Users/vincirist/projects/FloatGraph/extern/vml/parse.h */ = {isa = PBXBuildFile; fileRef = E72920358A7C4CCCA48BEEA1 /* /Users/vincirist/projects/FloatGraph/extern/vml/parse.h */; };
+		B6CB986AFD74421E9C68920C /* /Users/vincirist/projects/FloatGraph/extern/imgui/imconfig.h */ = {isa = PBXBuildFile; fileRef = A14AE619A1FF4B218B604A94 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imconfig.h */; };
+		BA2FBFD3743546C4A6F48ED9 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 013AABF9410D427D9934831C /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_time.c */; };
+		BB7FCD9051814A88A5CFA343 /* /Users/vincirist/projects/FloatGraph/extern/vml/interval.h */ = {isa = PBXBuildFile; fileRef = C7D601C70BD34024AE7A9CC1 /* /Users/vincirist/projects/FloatGraph/extern/vml/interval.h */; };
+		BF4B51C20F1F4D7CA97C3F40 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_truetype.h */ = {isa = PBXBuildFile; fileRef = A13364F87C244119B5F4BFDA /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_truetype.h */; };
+		C3D51BCBEB9C4AD49FC0E91E /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_demo.cpp */ = {isa = PBXBuildFile; fileRef = 48332B7746E140D9A0BD21E2 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_demo.cpp */; };
+		C666EC0FEA1F41BBB5A4A0B1 /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_opengl3.cpp */ = {isa = PBXBuildFile; fileRef = 366A3F7984AA4EA8A757BA45 /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_opengl3.cpp */; };
+		C8044CA9371A4DE4BB4FCECD /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = E5EAF2D6E60B452E9BF24AD9 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/egl_context.h */; };
+		CAA472B5B4764B72B21F7929 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec3.cpp */ = {isa = PBXBuildFile; fileRef = 02462CBBD56B4A838937ECD5 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec3.cpp */; };
+		D34852F110004BE889C17CDC /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 109B8C27AC324C4B92EE81E2 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/context.c */; };
+		D3AEC8FC4BB24D5DA18EB549 /* /Users/vincirist/projects/FloatGraph/extern/glad/include/glad/gl.h */ = {isa = PBXBuildFile; fileRef = 4270E422810A4B11BB23B958 /* /Users/vincirist/projects/FloatGraph/extern/glad/include/glad/gl.h */; };
+		D47B43A7CD1D4E35A9ADC155 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 43E446C69FC5411C98EBD4A2 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_joystick.h */; };
+		D6B13904B5C84158A30AC30E /* /Users/vincirist/projects/FloatGraph/extern/vml/arc.h */ = {isa = PBXBuildFile; fileRef = 90111744E04A49FF87FE2596 /* /Users/vincirist/projects/FloatGraph/extern/vml/arc.h */; };
+		D85000E1C90C4206B33AEBDE /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_rectpack.h */ = {isa = PBXBuildFile; fileRef = B9F2CA7F72154D30ABD19725 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_rectpack.h */; };
+		D9B6C16A57A24805A07C56E1 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/interval.cpp */ = {isa = PBXBuildFile; fileRef = E721B7EAEBFE4C8A89F969F9 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/interval.cpp */; };
+		DF4BF74FCBCC4D32A73D2BD4 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 7E947E1CAC7647998F3D1463 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/nsgl_context.m */; };
+		E03F20AB3340485F89027C24 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = B275F491C9F249F08406B808 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_draw.cpp */; };
+		E4DB879487CC4C2FA6E838DB /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_glfw.cpp */ = {isa = PBXBuildFile; fileRef = 88000BF8DB444A009584574F /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_glfw.cpp */; };
+		F14AA13C81A04BD49E245232 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 89994D690F4F485B8D26EFB1 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/osmesa_context.c */; };
+		F9501C69FDAC4420AD1265E7 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/cashew.cpp */ = {isa = PBXBuildFile; fileRef = 5C08D286A9524F31BA1DF968 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/cashew.cpp */; };
+		F98C5FB6A544457399CC0D05 /* /Users/vincirist/projects/FloatGraph/extern/vml/graph.h */ = {isa = PBXBuildFile; fileRef = 9127FDE882D64895A94C449F /* /Users/vincirist/projects/FloatGraph/extern/vml/graph.h */; };
+		F9C3EEC034E24CADAACE789F /* /Users/vincirist/projects/FloatGraph/extern/vml/cashew.h */ = {isa = PBXBuildFile; fileRef = 62034A4E083142DA881B597F /* /Users/vincirist/projects/FloatGraph/extern/vml/cashew.h */; };
+		FD9399DC30824DDE872AACC6 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 4802E6A986C54331B987635A /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_platform.h */; };
+		FE433B0564984E1A881E22C7 /* /Users/vincirist/projects/FloatGraph/extern/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 8728CB29FB2E42A390D2E654 /* /Users/vincirist/projects/FloatGraph/extern/glfw/include/GLFW/glfw3native.h */; };
+		FFF97E44FBF24D28BEA16E66 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 0A15D42E92824B5B99D5B67B /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/window.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		23A13B193A884826A86BC871 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		2AC07EA838314945BA468255 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		60D050C3652B41C0AFDB1F69 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D19C24ACECB24FFAA77F283E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		05CC2BC6A0ED443BBFA25F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001E03BEF22148C08EF35AA2;
+			remoteInfo = glfw;
+		};
+		19BED5E5EB2B42059870074F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D8FEC829D44603BC571736;
+			remoteInfo = ZERO_CHECK;
+		};
+		258A71B95EBC454A8022540B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD1DB1EDD6E45B3B32021F5;
+			remoteInfo = vml;
+		};
+		37695A1943314B049326E3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C56D7143951454CB96B1808;
+			remoteInfo = glad;
+		};
+		394EB65100934CC79BD3D0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D8FEC829D44603BC571736;
+			remoteInfo = ZERO_CHECK;
+		};
+		518881F887124272A4025D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C56D7143951454CB96B1808;
+			remoteInfo = glad;
+		};
+		5EBD4B435737400A93958F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16E2244F8A364087BE8469E4;
+			remoteInfo = imgui;
+		};
+		61270AF337C2488BAEF8316F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D8FEC829D44603BC571736;
+			remoteInfo = ZERO_CHECK;
+		};
+		61ACB902D196448981B2C7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D8FEC829D44603BC571736;
+			remoteInfo = ZERO_CHECK;
+		};
+		75C44E76BB1F4F1E880140CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16E2244F8A364087BE8469E4;
+			remoteInfo = imgui;
+		};
+		92B28D1AE9CB4280ACC5FD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D8FEC829D44603BC571736;
+			remoteInfo = ZERO_CHECK;
+		};
+		A8D8E806A91342EB8A4B76AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5257D79B2DDA476BA9A77E60;
+			remoteInfo = FloatGraph;
+		};
+		C40F467FA5B74D67B4B8BD1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001E03BEF22148C08EF35AA2;
+			remoteInfo = glfw;
+		};
+		E50EFEF4BE1F41EFA94B0E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D8FEC829D44603BC571736;
+			remoteInfo = ZERO_CHECK;
+		};
+		E722888AB0724851ADD8AF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836FE336D1148728AFF23BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD1DB1EDD6E45B3B32021F5;
+			remoteInfo = vml;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013AABF9410D427D9934831C /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = extern/glfw/src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		02462CBBD56B4A838937ECD5 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vec3.cpp; path = extern/vml/src/vec3.cpp; sourceTree = SOURCE_ROOT; };
+		0399AF64FFF345C0A1C40E51 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = implot.cpp; path = extern/imgui/implot.cpp; sourceTree = SOURCE_ROOT; };
+		03AE6520C4AF419780621AA7 /* /Users/vincirist/projects/FloatGraph/extern/vml/arcshape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = arcshape.h; path = extern/vml/arcshape.h; sourceTree = SOURCE_ROOT; };
+		06393F653DFF4A46BC3CA572 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = extern/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		0A15D42E92824B5B99D5B67B /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = extern/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		0DA2CDCE24A24E81A266DAB5 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = extern/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		0E0FA56E76654077938EC1E2 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui.h; path = extern/imgui/imgui.h; sourceTree = SOURCE_ROOT; };
+		109B8C27AC324C4B92EE81E2 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = extern/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		14D11A932DFB4C07B16D208C /* /Users/vincirist/projects/FloatGraph/extern/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = extern/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		1DA0183CC6E2499C9795A1AD /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = extern/glfw/src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		1E0F176EDF0945F384EC380B /* /Users/vincirist/projects/FloatGraph/extern/vml/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = extern/vml/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		20CD589D534441D38436B6F1 /* /Users/vincirist/projects/FloatGraph/FloatGraph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FloatGraph.cpp; path = FloatGraph.cpp; sourceTree = SOURCE_ROOT; };
+		279B4B5C18314996A314AEED /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CF18B877B44D62B4E13152 /* /Users/vincirist/projects/FloatGraph/extern/glad/include/KHR/khrplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = khrplatform.h; path = extern/glad/include/KHR/khrplatform.h; sourceTree = SOURCE_ROOT; };
+		29EBD026BFB44A56936F94DF /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vec2.cpp; path = extern/vml/src/vec2.cpp; sourceTree = SOURCE_ROOT; };
+		2AD5A193CFFB43968D8A03C2 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arcshape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arcshape.cpp; path = extern/vml/src/arcshape.cpp; sourceTree = SOURCE_ROOT; };
+		30101A293A964C6EAC4B29C9 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_demo.cpp; path = extern/imgui/imgui_demo.cpp; sourceTree = SOURCE_ROOT; };
+		3056A76AA71542968F7EDF45 /* /Users/vincirist/projects/FloatGraph/extern/vml/basics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = basics.h; path = extern/vml/basics.h; sourceTree = SOURCE_ROOT; };
+		34BD87993C344DFDB1D6632D /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = extern/glfw/src/mappings.h; sourceTree = SOURCE_ROOT; };
+		34D763205C78421AAAF9EB9D /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = implot.h; path = extern/imgui/implot.h; sourceTree = SOURCE_ROOT; };
+		366A3F7984AA4EA8A757BA45 /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_opengl3.cpp; path = support/imgui_impl_opengl3.cpp; sourceTree = SOURCE_ROOT; };
+		4270E422810A4B11BB23B958 /* /Users/vincirist/projects/FloatGraph/extern/glad/include/glad/gl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gl.h; path = extern/glad/include/glad/gl.h; sourceTree = SOURCE_ROOT; };
+		438929B2CA3E4DCFACBCEF20 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = extern/imgui/imgui_widgets.cpp; sourceTree = SOURCE_ROOT; };
+		43E446C69FC5411C98EBD4A2 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = extern/glfw/src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		44C2DD1009A24E4CA347B91A /* /Users/vincirist/projects/FloatGraph/extern/vml/base.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = base.h; path = extern/vml/base.h; sourceTree = SOURCE_ROOT; };
+		4802E6A986C54331B987635A /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = extern/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		48332B7746E140D9A0BD21E2 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = implot_demo.cpp; path = extern/imgui/implot_demo.cpp; sourceTree = SOURCE_ROOT; };
+		509406747A7E4F859FE5D4F0 /* /Users/vincirist/projects/FloatGraph/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		5C08D286A9524F31BA1DF968 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/cashew.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cashew.cpp; path = extern/vml/src/cashew.cpp; sourceTree = SOURCE_ROOT; };
+		62034A4E083142DA881B597F /* /Users/vincirist/projects/FloatGraph/extern/vml/cashew.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cashew.h; path = extern/vml/cashew.h; sourceTree = SOURCE_ROOT; };
+		6319B7D34A964BB5A426A49F /* /Users/vincirist/projects/FloatGraph/extern/imgui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = extern/imgui/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		69636E5D6B2448798F9D7609 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arc.cpp; path = extern/vml/src/arc.cpp; sourceTree = SOURCE_ROOT; };
+		6B846AF4B7754D378A41FCF0 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/mat4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mat4.cpp; path = extern/vml/src/mat4.cpp; sourceTree = SOURCE_ROOT; };
+		6CAE2942BD844C5FB4F657F2 /* /Users/vincirist/projects/FloatGraph/extern/vml/vec3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec3.h; path = extern/vml/vec3.h; sourceTree = SOURCE_ROOT; };
+		7250ED6A4B8043A68FBD490B /* /Users/vincirist/projects/FloatGraph/extern/vml/src/parse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parse.cpp; path = extern/vml/src/parse.cpp; sourceTree = SOURCE_ROOT; };
+		76B7087C8ED3415F85F8AED7 /* imgui */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libimgui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7837D52F9CD34EA4B113FDC1 /* /Users/vincirist/projects/FloatGraph/extern/glad/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = extern/glad/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		787995CF7B8F49CE81F5E592 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = extern/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		7E947E1CAC7647998F3D1463 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = extern/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		8160A71639A34FF69D41EE2A /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = extern/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		8728CB29FB2E42A390D2E654 /* /Users/vincirist/projects/FloatGraph/extern/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = extern/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		88000BF8DB444A009584574F /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_glfw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_glfw.cpp; path = support/imgui_impl_glfw.cpp; sourceTree = SOURCE_ROOT; };
+		8852B3F06B5E4880B8D8C1DA /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vec4.cpp; path = extern/vml/src/vec4.cpp; sourceTree = SOURCE_ROOT; };
+		89994D690F4F485B8D26EFB1 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = extern/glfw/src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		8CDD31B19EA24409A4458861 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_textedit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imstb_textedit.h; path = extern/imgui/imstb_textedit.h; sourceTree = SOURCE_ROOT; };
+		90111744E04A49FF87FE2596 /* /Users/vincirist/projects/FloatGraph/extern/vml/arc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = arc.h; path = extern/vml/arc.h; sourceTree = SOURCE_ROOT; };
+		9127FDE882D64895A94C449F /* /Users/vincirist/projects/FloatGraph/extern/vml/graph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = graph.h; path = extern/vml/graph.h; sourceTree = SOURCE_ROOT; };
+		92D9E145E8D74EE19168F811 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = extern/glfw/src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		97A809E884E54E42BB76E859 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = extern/imgui/imgui.cpp; sourceTree = SOURCE_ROOT; };
+		9A187A32BCEA4F6F9E03D4F9 /* /Users/vincirist/projects/FloatGraph/extern/glad/src/gl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gl.c; path = extern/glad/src/gl.c; sourceTree = SOURCE_ROOT; };
+		A13364F87C244119B5F4BFDA /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_truetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imstb_truetype.h; path = extern/imgui/imstb_truetype.h; sourceTree = SOURCE_ROOT; };
+		A14AE619A1FF4B218B604A94 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imconfig.h; path = extern/imgui/imconfig.h; sourceTree = SOURCE_ROOT; };
+		A659D4360C8E47D785203FC2 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = extern/glfw/src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		A9838EB57903442AB4BFB9F0 /* FloatGraph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = FloatGraph; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F8BE17BC2A4A37B4EEFD4A /* glad */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B275F491C9F249F08406B808 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = extern/imgui/imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
+		B6C006077CDE42548656BA36 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = extern/glfw/src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		B92334CE89CE480C904622CA /* /Users/vincirist/projects/FloatGraph/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B9F2CA7F72154D30ABD19725 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_rectpack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imstb_rectpack.h; path = extern/imgui/imstb_rectpack.h; sourceTree = SOURCE_ROOT; };
+		BA3C4CF93A4A41E5AFF31D26 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_internal.h; path = extern/imgui/imgui_internal.h; sourceTree = SOURCE_ROOT; };
+		BC9A5EEAE2F745DE86C162E1 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_items.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = implot_items.cpp; path = extern/imgui/implot_items.cpp; sourceTree = SOURCE_ROOT; };
+		C25400394FEA486AA9DCE1B6 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = extern/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		C7D601C70BD34024AE7A9CC1 /* /Users/vincirist/projects/FloatGraph/extern/vml/interval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = interval.h; path = extern/vml/interval.h; sourceTree = SOURCE_ROOT; };
+		CCBE9AEF054741E9B5D97609 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = extern/glfw/src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		D3BFC0712D1D4315A0D138BA /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = extern/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+		D444956488E0498381AF71BB /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = implot_internal.h; path = extern/imgui/implot_internal.h; sourceTree = SOURCE_ROOT; };
+		DC7796FC04344962815B34EA /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = extern/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		DE562A5030B545D9BAEAFC91 /* /Users/vincirist/projects/FloatGraph/extern/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = extern/glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E5EAF2D6E60B452E9BF24AD9 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = extern/glfw/src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		E721B7EAEBFE4C8A89F969F9 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/interval.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = interval.cpp; path = extern/vml/src/interval.cpp; sourceTree = SOURCE_ROOT; };
+		E72920358A7C4CCCA48BEEA1 /* /Users/vincirist/projects/FloatGraph/extern/vml/parse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parse.h; path = extern/vml/parse.h; sourceTree = SOURCE_ROOT; };
+		EAB0904737E54482A477FFA0 /* vml */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libvml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB6D736B2FC42BABC9EDF23 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = extern/glfw/src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		ED10979C7F404E92833A8C90 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = extern/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		F3E8A6E857474F4AAB6F96EB /* /Users/vincirist/projects/FloatGraph/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F5AD5CB534E348FBBB7B5FE0 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base.cpp; path = extern/vml/src/base.cpp; sourceTree = SOURCE_ROOT; };
+		F63090B89A454F2093F76925 /* /Users/vincirist/projects/FloatGraph/extern/vml/mat4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat4.h; path = extern/vml/mat4.h; sourceTree = SOURCE_ROOT; };
+		FD64BE809DFD472AB31F0378 /* /Users/vincirist/projects/FloatGraph/support/timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = support/timer.cpp; sourceTree = SOURCE_ROOT; };
+		FE9E422086234E0D9246D0AD /* /Users/vincirist/projects/FloatGraph/extern/vml/vec2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec2.h; path = extern/vml/vec2.h; sourceTree = SOURCE_ROOT; };
+		FF8FAF90B9B542008A415A24 /* /Users/vincirist/projects/FloatGraph/extern/vml/vec4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec4.h; path = extern/vml/vec4.h; sourceTree = SOURCE_ROOT; };
+		FFA8D5B185EE4B5D80C4F7E4 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_tables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_tables.cpp; path = extern/imgui/imgui_tables.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0366E982C825409B9352175A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2701FCE4A31942EFB1421FAE /* CMake Rules */,
+				F3E8A6E857474F4AAB6F96EB /* /Users/vincirist/projects/FloatGraph/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1EC970922EFE4ADA977D7204 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				69636E5D6B2448798F9D7609 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arc.cpp */,
+				2AD5A193CFFB43968D8A03C2 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arcshape.cpp */,
+				F5AD5CB534E348FBBB7B5FE0 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/base.cpp */,
+				5C08D286A9524F31BA1DF968 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/cashew.cpp */,
+				E721B7EAEBFE4C8A89F969F9 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/interval.cpp */,
+				6B846AF4B7754D378A41FCF0 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/mat4.cpp */,
+				7250ED6A4B8043A68FBD490B /* /Users/vincirist/projects/FloatGraph/extern/vml/src/parse.cpp */,
+				29EBD026BFB44A56936F94DF /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec2.cpp */,
+				02462CBBD56B4A838937ECD5 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec3.cpp */,
+				8852B3F06B5E4880B8D8C1DA /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec4.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		24DCF0E6A840493C9154E284 /* KHR */ = {
+			isa = PBXGroup;
+			children = (
+				29CF18B877B44D62B4E13152 /* /Users/vincirist/projects/FloatGraph/extern/glad/include/KHR/khrplatform.h */,
+			);
+			name = KHR;
+			sourceTree = "<group>";
+		};
+		2701FCE4A31942EFB1421FAE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		29BA2DF041584B4F95109AC9 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				90111744E04A49FF87FE2596 /* /Users/vincirist/projects/FloatGraph/extern/vml/arc.h */,
+				03AE6520C4AF419780621AA7 /* /Users/vincirist/projects/FloatGraph/extern/vml/arcshape.h */,
+				44C2DD1009A24E4CA347B91A /* /Users/vincirist/projects/FloatGraph/extern/vml/base.h */,
+				3056A76AA71542968F7EDF45 /* /Users/vincirist/projects/FloatGraph/extern/vml/basics.h */,
+				62034A4E083142DA881B597F /* /Users/vincirist/projects/FloatGraph/extern/vml/cashew.h */,
+				9127FDE882D64895A94C449F /* /Users/vincirist/projects/FloatGraph/extern/vml/graph.h */,
+				C7D601C70BD34024AE7A9CC1 /* /Users/vincirist/projects/FloatGraph/extern/vml/interval.h */,
+				F63090B89A454F2093F76925 /* /Users/vincirist/projects/FloatGraph/extern/vml/mat4.h */,
+				E72920358A7C4CCCA48BEEA1 /* /Users/vincirist/projects/FloatGraph/extern/vml/parse.h */,
+				FE9E422086234E0D9246D0AD /* /Users/vincirist/projects/FloatGraph/extern/vml/vec2.h */,
+				6CAE2942BD844C5FB4F657F2 /* /Users/vincirist/projects/FloatGraph/extern/vml/vec3.h */,
+				FF8FAF90B9B542008A415A24 /* /Users/vincirist/projects/FloatGraph/extern/vml/vec4.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3A7E91A50CE54D9D8630CE7B /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				72619F04F190467FB53DA029 /* src */,
+				3C392005265548C2820A2BF0 /* include */,
+				7837D52F9CD34EA4B113FDC1 /* /Users/vincirist/projects/FloatGraph/extern/glad/CMakeLists.txt */,
+			);
+			name = glad;
+			sourceTree = "<group>";
+		};
+		3C01AB1B0BDA450EA430DF49 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				787995CF7B8F49CE81F5E592 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_init.m */,
+				43E446C69FC5411C98EBD4A2 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_joystick.h */,
+				A659D4360C8E47D785203FC2 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_joystick.m */,
+				ED10979C7F404E92833A8C90 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_monitor.m */,
+				4802E6A986C54331B987635A /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_platform.h */,
+				013AABF9410D427D9934831C /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_time.c */,
+				C25400394FEA486AA9DCE1B6 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_window.m */,
+				109B8C27AC324C4B92EE81E2 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/context.c */,
+				EBB6D736B2FC42BABC9EDF23 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/egl_context.c */,
+				E5EAF2D6E60B452E9BF24AD9 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/egl_context.h */,
+				06393F653DFF4A46BC3CA572 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/init.c */,
+				8160A71639A34FF69D41EE2A /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/input.c */,
+				D3BFC0712D1D4315A0D138BA /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/internal.h */,
+				34BD87993C344DFDB1D6632D /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/mappings.h */,
+				0DA2CDCE24A24E81A266DAB5 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/monitor.c */,
+				DC7796FC04344962815B34EA /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/nsgl_context.h */,
+				7E947E1CAC7647998F3D1463 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/nsgl_context.m */,
+				89994D690F4F485B8D26EFB1 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/osmesa_context.c */,
+				1DA0183CC6E2499C9795A1AD /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/osmesa_context.h */,
+				92D9E145E8D74EE19168F811 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/posix_thread.c */,
+				CCBE9AEF054741E9B5D97609 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/posix_thread.h */,
+				B6C006077CDE42548656BA36 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/vulkan.c */,
+				0A15D42E92824B5B99D5B67B /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/window.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		3C392005265548C2820A2BF0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7DB089195D354BB8B85742F9 /* glad */,
+				24DCF0E6A840493C9154E284 /* KHR */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		4B0D31EB0AFF4BFFAFA00564 = {
+			isa = PBXGroup;
+			children = (
+				EA75276CB3B0437699478B29 /* FloatGraph */,
+				0366E982C825409B9352175A /* ALL_BUILD */,
+				3A7E91A50CE54D9D8630CE7B /* glad */,
+				9DEA1107AAFC418E9B5D0917 /* glfw */,
+				D7F8CAAE910C4DD69EF10403 /* imgui */,
+				596F5508CED34D578EAF692B /* vml */,
+				5AA0CBEA783F4FFD89021E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		596F5508CED34D578EAF692B /* vml */ = {
+			isa = PBXGroup;
+			children = (
+				1EC970922EFE4ADA977D7204 /* Source Files */,
+				29BA2DF041584B4F95109AC9 /* Header Files */,
+				1E0F176EDF0945F384EC380B /* /Users/vincirist/projects/FloatGraph/extern/vml/CMakeLists.txt */,
+			);
+			name = vml;
+			sourceTree = "<group>";
+		};
+		5AA0CBEA783F4FFD89021E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9838EB57903442AB4BFB9F0 /* FloatGraph */,
+				A9F8BE17BC2A4A37B4EEFD4A /* glad */,
+				279B4B5C18314996A314AEED /* glfw */,
+				76B7087C8ED3415F85F8AED7 /* imgui */,
+				EAB0904737E54482A477FFA0 /* vml */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		701E1660B08C4055A60A7D18 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				20CD589D534441D38436B6F1 /* /Users/vincirist/projects/FloatGraph/FloatGraph.cpp */,
+				509406747A7E4F859FE5D4F0 /* /Users/vincirist/projects/FloatGraph/main.cpp */,
+				88000BF8DB444A009584574F /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_glfw.cpp */,
+				366A3F7984AA4EA8A757BA45 /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_opengl3.cpp */,
+				FD64BE809DFD472AB31F0378 /* /Users/vincirist/projects/FloatGraph/support/timer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		72619F04F190467FB53DA029 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9A187A32BCEA4F6F9E03D4F9 /* /Users/vincirist/projects/FloatGraph/extern/glad/src/gl.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		7DB089195D354BB8B85742F9 /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				4270E422810A4B11BB23B958 /* /Users/vincirist/projects/FloatGraph/extern/glad/include/glad/gl.h */,
+			);
+			name = glad;
+			sourceTree = "<group>";
+		};
+		8E541618B3CA4F93B8AA3315 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A14AE619A1FF4B218B604A94 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imconfig.h */,
+				0E0FA56E76654077938EC1E2 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui.h */,
+				BA3C4CF93A4A41E5AFF31D26 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_internal.h */,
+				34D763205C78421AAAF9EB9D /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot.h */,
+				D444956488E0498381AF71BB /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_internal.h */,
+				B9F2CA7F72154D30ABD19725 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_rectpack.h */,
+				8CDD31B19EA24409A4458861 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_textedit.h */,
+				A13364F87C244119B5F4BFDA /* /Users/vincirist/projects/FloatGraph/extern/imgui/imstb_truetype.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9462DEBC317D4D9DB412EB3F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				97A809E884E54E42BB76E859 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui.cpp */,
+				30101A293A964C6EAC4B29C9 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_demo.cpp */,
+				B275F491C9F249F08406B808 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_draw.cpp */,
+				FFA8D5B185EE4B5D80C4F7E4 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_tables.cpp */,
+				438929B2CA3E4DCFACBCEF20 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_widgets.cpp */,
+				0399AF64FFF345C0A1C40E51 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot.cpp */,
+				48332B7746E140D9A0BD21E2 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_demo.cpp */,
+				BC9A5EEAE2F745DE86C162E1 /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_items.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9DEA1107AAFC418E9B5D0917 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				3C01AB1B0BDA450EA430DF49 /* src */,
+				E6A88DFCCB7C42D881E3E99C /* include */,
+				DE562A5030B545D9BAEAFC91 /* /Users/vincirist/projects/FloatGraph/extern/glfw/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		C859300F359E4887AB6AA278 /* GLFW */ = {
+			isa = PBXGroup;
+			children = (
+				14D11A932DFB4C07B16D208C /* /Users/vincirist/projects/FloatGraph/extern/glfw/include/GLFW/glfw3.h */,
+				8728CB29FB2E42A390D2E654 /* /Users/vincirist/projects/FloatGraph/extern/glfw/include/GLFW/glfw3native.h */,
+			);
+			name = GLFW;
+			sourceTree = "<group>";
+		};
+		D7F8CAAE910C4DD69EF10403 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				9462DEBC317D4D9DB412EB3F /* Source Files */,
+				8E541618B3CA4F93B8AA3315 /* Header Files */,
+				6319B7D34A964BB5A426A49F /* /Users/vincirist/projects/FloatGraph/extern/imgui/CMakeLists.txt */,
+			);
+			name = imgui;
+			sourceTree = "<group>";
+		};
+		E6A88DFCCB7C42D881E3E99C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C859300F359E4887AB6AA278 /* GLFW */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		EA75276CB3B0437699478B29 /* FloatGraph */ = {
+			isa = PBXGroup;
+			children = (
+				701E1660B08C4055A60A7D18 /* Source Files */,
+				B92334CE89CE480C904622CA /* /Users/vincirist/projects/FloatGraph/CMakeLists.txt */,
+			);
+			name = FloatGraph;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001E03BEF22148C08EF35AA2 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5702AF41466B4FDCAE90B4FD /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				83D6D80AE5C14E2F96F2E808 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6353E9247A3A4F2EBC2032D9 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 279B4B5C18314996A314AEED /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		16E2244F8A364087BE8469E4 /* imgui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF55AA4834A42378281F100 /* Build configuration list for PBXNativeTarget "imgui" */;
+			buildPhases = (
+				B4ABEC541699414082312EA4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8FADE0262DF4A8489334E0F /* PBXTargetDependency */,
+			);
+			name = imgui;
+			productName = imgui;
+			productReference = 76B7087C8ED3415F85F8AED7 /* imgui */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2FD1DB1EDD6E45B3B32021F5 /* vml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53034A1C4C084610AB995878 /* Build configuration list for PBXNativeTarget "vml" */;
+			buildPhases = (
+				EDE3C96ECFE6458480BC7FC3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BBC2DCA820E432394D5BFF1 /* PBXTargetDependency */,
+			);
+			name = vml;
+			productName = vml;
+			productReference = EAB0904737E54482A477FFA0 /* vml */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4C56D7143951454CB96B1808 /* glad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8600FE3196704C5F94C9E8D9 /* Build configuration list for PBXNativeTarget "glad" */;
+			buildPhases = (
+				2F3E6BA87DED464E960B94D7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB05F4B9B7B4DE9AFA8374C /* PBXTargetDependency */,
+			);
+			name = glad;
+			productName = glad;
+			productReference = A9F8BE17BC2A4A37B4EEFD4A /* glad */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5257D79B2DDA476BA9A77E60 /* FloatGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28362CFE9BC74ECE9E532C2F /* Build configuration list for PBXNativeTarget "FloatGraph" */;
+			buildPhases = (
+				2D15470C11644D35A64FA4E4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF98EB1C528B430F9B0A91CD /* PBXTargetDependency */,
+				79F4A1F79B1A4CC4BA4FFCC9 /* PBXTargetDependency */,
+				E8F5B384EA9B49638233E83C /* PBXTargetDependency */,
+				234652285E5047909BF9A561 /* PBXTargetDependency */,
+				3CC2EAC1A2A64CA5A88076EC /* PBXTargetDependency */,
+			);
+			name = FloatGraph;
+			productName = FloatGraph;
+			productReference = A9838EB57903442AB4BFB9F0 /* FloatGraph */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E836FE336D1148728AFF23BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = C6A4BD7C0FD4459CAD0AE966 /* Build configuration list for PBXProject "FloatGraph" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				60D050C3652B41C0AFDB1F69 /* Debug */,
+				D19C24ACECB24FFAA77F283E /* Release */,
+				2AC07EA838314945BA468255 /* MinSizeRel */,
+				23A13B193A884826A86BC871 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4B0D31EB0AFF4BFFAFA00564;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				39A5297CCC0D4604A029721F /* ALL_BUILD */,
+				5257D79B2DDA476BA9A77E60 /* FloatGraph */,
+				46D8FEC829D44603BC571736 /* ZERO_CHECK */,
+				4C56D7143951454CB96B1808 /* glad */,
+				001E03BEF22148C08EF35AA2 /* glfw */,
+				16E2244F8A364087BE8469E4 /* imgui */,
+				2FD1DB1EDD6E45B3B32021F5 /* vml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		027753E6C06E49A88A5B0EC9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		153B19FF7BAF47949BC7C3F9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		79469749E04146C89E549954 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/vincirist/projects/FloatGraph/build -f /Users/vincirist/projects/FloatGraph/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		96D49EA792204191A2F1C713 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/vincirist/projects/FloatGraph/build -f /Users/vincirist/projects/FloatGraph/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D15470C11644D35A64FA4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7145D907613B4266A2426DAA /* /Users/vincirist/projects/FloatGraph/FloatGraph.cpp */,
+				A7030F2959A84D5487D20C74 /* /Users/vincirist/projects/FloatGraph/main.cpp */,
+				E4DB879487CC4C2FA6E838DB /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_glfw.cpp */,
+				C666EC0FEA1F41BBB5A4A0B1 /* /Users/vincirist/projects/FloatGraph/support/imgui_impl_opengl3.cpp */,
+				22D22316C7EA4C74B9F2F143 /* /Users/vincirist/projects/FloatGraph/support/timer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3E6BA87DED464E960B94D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01404FDF2CCC4471A2AA1783 /* /Users/vincirist/projects/FloatGraph/extern/glad/src/gl.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D6D80AE5C14E2F96F2E808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8FDC4F4C534AEF96E35E8F /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_init.m */,
+				7B467605BFE5433483A8DE93 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_joystick.m */,
+				34FEBCC9A9344BAC9079F461 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_monitor.m */,
+				BA2FBFD3743546C4A6F48ED9 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_time.c */,
+				A80EC61500E8451088F11190 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/cocoa_window.m */,
+				D34852F110004BE889C17CDC /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/context.c */,
+				9E8180187A644E9086E0660A /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/egl_context.c */,
+				9C449384BBE045488C31AB4B /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/init.c */,
+				81BAC47DC03C48D2B5D97B54 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/input.c */,
+				14B3F595A8124AD0A89FCB52 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/monitor.c */,
+				DF4BF74FCBCC4D32A73D2BD4 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/nsgl_context.m */,
+				F14AA13C81A04BD49E245232 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/osmesa_context.c */,
+				76B0C1A00E0E4251858121FF /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/posix_thread.c */,
+				600A3473737B4A678A2140DA /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/vulkan.c */,
+				FFF97E44FBF24D28BEA16E66 /* /Users/vincirist/projects/FloatGraph/extern/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4ABEC541699414082312EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF7BF21B5A546D09336C9E0 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui.cpp */,
+				04C9DDC716394E86BBA4D2DB /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_demo.cpp */,
+				E03F20AB3340485F89027C24 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_draw.cpp */,
+				A16CBA9ECA2F4E6AB26BF44B /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_tables.cpp */,
+				173EE25686774C7FB86EA2A5 /* /Users/vincirist/projects/FloatGraph/extern/imgui/imgui_widgets.cpp */,
+				7EEBCB324E534EC8B415600F /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot.cpp */,
+				C3D51BCBEB9C4AD49FC0E91E /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_demo.cpp */,
+				7BD357D68142409EB9FC283B /* /Users/vincirist/projects/FloatGraph/extern/imgui/implot_items.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE3C96ECFE6458480BC7FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A348F6139046404E8290CD33 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arc.cpp */,
+				6E9BF4F67ADC4BB6846824B7 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/arcshape.cpp */,
+				225BEF02D23D42A7908D0860 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/base.cpp */,
+				F9501C69FDAC4420AD1265E7 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/cashew.cpp */,
+				D9B6C16A57A24805A07C56E1 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/interval.cpp */,
+				1F648B5E8CEA4EA2B7403776 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/mat4.cpp */,
+				0A9830EA902D48E2A290D528 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/parse.cpp */,
+				156F05ABEDE94735B5FC5B87 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec2.cpp */,
+				CAA472B5B4764B72B21F7929 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec3.cpp */,
+				090C5F4CCC774F6AADCF0849 /* /Users/vincirist/projects/FloatGraph/extern/vml/src/vec4.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14B3757A82804B8EAAB0A13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD1DB1EDD6E45B3B32021F5 /* vml */;
+			targetProxy = 258A71B95EBC454A8022540B /* PBXContainerItemProxy */;
+		};
+		234652285E5047909BF9A561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD1DB1EDD6E45B3B32021F5 /* vml */;
+			targetProxy = E722888AB0724851ADD8AF7C /* PBXContainerItemProxy */;
+		};
+		24552A2E0B244E76A3DD017A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001E03BEF22148C08EF35AA2 /* glfw */;
+			targetProxy = C40F467FA5B74D67B4B8BD1C /* PBXContainerItemProxy */;
+		};
+		26325B56E4054C0A9DA42D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D8FEC829D44603BC571736 /* ZERO_CHECK */;
+			targetProxy = 394EB65100934CC79BD3D0D0 /* PBXContainerItemProxy */;
+		};
+		2B1CB64982B14F56BC7D8542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16E2244F8A364087BE8469E4 /* imgui */;
+			targetProxy = 75C44E76BB1F4F1E880140CD /* PBXContainerItemProxy */;
+		};
+		3CC2EAC1A2A64CA5A88076EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D8FEC829D44603BC571736 /* ZERO_CHECK */;
+			targetProxy = 61270AF337C2488BAEF8316F /* PBXContainerItemProxy */;
+		};
+		4EB05F4B9B7B4DE9AFA8374C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D8FEC829D44603BC571736 /* ZERO_CHECK */;
+			targetProxy = 92B28D1AE9CB4280ACC5FD22 /* PBXContainerItemProxy */;
+		};
+		6353E9247A3A4F2EBC2032D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D8FEC829D44603BC571736 /* ZERO_CHECK */;
+			targetProxy = 19BED5E5EB2B42059870074F /* PBXContainerItemProxy */;
+		};
+		79F4A1F79B1A4CC4BA4FFCC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16E2244F8A364087BE8469E4 /* imgui */;
+			targetProxy = 5EBD4B435737400A93958F39 /* PBXContainerItemProxy */;
+		};
+		9BBC2DCA820E432394D5BFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D8FEC829D44603BC571736 /* ZERO_CHECK */;
+			targetProxy = E50EFEF4BE1F41EFA94B0E6C /* PBXContainerItemProxy */;
+		};
+		B4B199B2FDC7474289C240C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C56D7143951454CB96B1808 /* glad */;
+			targetProxy = 37695A1943314B049326E3A2 /* PBXContainerItemProxy */;
+		};
+		C6A17CBAE3424D87BA6C08A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5257D79B2DDA476BA9A77E60 /* FloatGraph */;
+			targetProxy = A8D8E806A91342EB8A4B76AD /* PBXContainerItemProxy */;
+		};
+		E8F5B384EA9B49638233E83C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001E03BEF22148C08EF35AA2 /* glfw */;
+			targetProxy = 05CC2BC6A0ED443BBFA25F37 /* PBXContainerItemProxy */;
+		};
+		EF98EB1C528B430F9B0A91CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C56D7143951454CB96B1808 /* glad */;
+			targetProxy = 518881F887124272A4025D57 /* PBXContainerItemProxy */;
+		};
+		F8FADE0262DF4A8489334E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D8FEC829D44603BC571736 /* ZERO_CHECK */;
+			targetProxy = 61ACB902D196448981B2C7A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		026D05C571114FBE8DACDA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/imgui/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		227C9F9149604C77B108554C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/glad;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		23A07FD9D1004187BDB24547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GL_SILENCE_DEPRECATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/glfw/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		24CC3E2C77EA46BBAE349055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2AB2FC49A71A4B638B994FB0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2E870C28AF684C039A16980B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/glad;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3418F72D8C1048649E50E161 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern,/Users/vincirist/projects/FloatGraph/support,/Users/vincirist/projects/FloatGraph/extern/vml/..,/Users/vincirist/projects/FloatGraph/extern/imgui/..,/Users/vincirist/projects/FloatGraph/extern/glfw/include,/Users/vincirist/projects/FloatGraph/extern/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/vincirist/projects/FloatGraph/build/extern/vml/MinSizeRel/libvml.a /Users/vincirist/projects/FloatGraph/build/extern/imgui/MinSizeRel/libimgui.a /Users/vincirist/projects/FloatGraph/build/extern/glfw/MinSizeRel/libglfw.a /Users/vincirist/projects/FloatGraph/build/extern/glad/MinSizeRel/libglad.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FloatGraph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3FEC917CBBCE4D67B63D9111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/vml/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/vml;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4656F2E2322F49AE92DBEFBF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/glad;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		483B82D517134C0895457B0E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/vml/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/vml;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6B7D917AE952416A98198C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern,/Users/vincirist/projects/FloatGraph/support,/Users/vincirist/projects/FloatGraph/extern/vml/..,/Users/vincirist/projects/FloatGraph/extern/imgui/..,/Users/vincirist/projects/FloatGraph/extern/glfw/include,/Users/vincirist/projects/FloatGraph/extern/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/vincirist/projects/FloatGraph/build/extern/vml/Release/libvml.a /Users/vincirist/projects/FloatGraph/build/extern/imgui/Release/libimgui.a /Users/vincirist/projects/FloatGraph/build/extern/glfw/Release/libglfw.a /Users/vincirist/projects/FloatGraph/build/extern/glad/Release/libglad.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FloatGraph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		73139A8D8A4E41F19DF678C9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7A827EB1DD434A4989C2B8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/build;
+			};
+			name = Debug;
+		};
+		9849269A09504C6A93E7C4D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GL_SILENCE_DEPRECATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/glfw/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9A7CE714FF30424FBDFD1758 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern,/Users/vincirist/projects/FloatGraph/support,/Users/vincirist/projects/FloatGraph/extern/vml/..,/Users/vincirist/projects/FloatGraph/extern/imgui/..,/Users/vincirist/projects/FloatGraph/extern/glfw/include,/Users/vincirist/projects/FloatGraph/extern/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/vincirist/projects/FloatGraph/build/extern/vml/RelWithDebInfo/libvml.a /Users/vincirist/projects/FloatGraph/build/extern/imgui/RelWithDebInfo/libimgui.a /Users/vincirist/projects/FloatGraph/build/extern/glfw/RelWithDebInfo/libglfw.a /Users/vincirist/projects/FloatGraph/build/extern/glad/RelWithDebInfo/libglad.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FloatGraph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9B03275932764F3381A5820B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/imgui/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ABA03FB356E24E2888DFCE08 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/vml/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/vml;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AF9946F2E35145ACAE617159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/build;
+			};
+			name = Release;
+		};
+		AFC6B2EB10B84DFDB7D24F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern,/Users/vincirist/projects/FloatGraph/support,/Users/vincirist/projects/FloatGraph/extern/vml/..,/Users/vincirist/projects/FloatGraph/extern/imgui/..,/Users/vincirist/projects/FloatGraph/extern/glfw/include,/Users/vincirist/projects/FloatGraph/extern/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/vincirist/projects/FloatGraph/build/extern/vml/Debug/libvml.a /Users/vincirist/projects/FloatGraph/build/extern/imgui/Debug/libimgui.a /Users/vincirist/projects/FloatGraph/build/extern/glfw/Debug/libglfw.a /Users/vincirist/projects/FloatGraph/build/extern/glad/Debug/libglad.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FloatGraph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B2D0766D44704CBF91F27911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B42C549703F541E1B5CE1335 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C0899187AF144DAAB82CD52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/glad/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/glad;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C253B1790D914696A9EB8700 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/build;
+			};
+			name = MinSizeRel;
+		};
+		D32D4FA49B5E451F9B5BD0AB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GL_SILENCE_DEPRECATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/glfw/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D3FCA902E9E64CC5BB87DD1C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/imgui/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DBB20E083AC94A4AB2296758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/vml/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/vml;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DCA39C5271784F0F926D7F29 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EB11FA1026BF43B98251CA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GL_SILENCE_DEPRECATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/glfw/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EECF53A56D0A4BAC82FEC8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F503A2819DE441ADAC6E456E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FBB9A897BF08406F97288CDB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FF73561FF9DB4CB8B81C5949 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/vincirist/projects/FloatGraph/extern/imgui/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/vincirist/projects/FloatGraph/build/extern/imgui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00315B050A074F67888D44D8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D0766D44704CBF91F27911 /* Debug */,
+				F503A2819DE441ADAC6E456E /* Release */,
+				FBB9A897BF08406F97288CDB /* MinSizeRel */,
+				73139A8D8A4E41F19DF678C9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1C8DA864446F4357813D80BE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CC3E2C77EA46BBAE349055 /* Debug */,
+				EECF53A56D0A4BAC82FEC8E7 /* Release */,
+				B42C549703F541E1B5CE1335 /* MinSizeRel */,
+				DCA39C5271784F0F926D7F29 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		28362CFE9BC74ECE9E532C2F /* Build configuration list for PBXNativeTarget "FloatGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC6B2EB10B84DFDB7D24F9E /* Debug */,
+				6B7D917AE952416A98198C2C /* Release */,
+				3418F72D8C1048649E50E161 /* MinSizeRel */,
+				9A7CE714FF30424FBDFD1758 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53034A1C4C084610AB995878 /* Build configuration list for PBXNativeTarget "vml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB20E083AC94A4AB2296758 /* Debug */,
+				3FEC917CBBCE4D67B63D9111 /* Release */,
+				ABA03FB356E24E2888DFCE08 /* MinSizeRel */,
+				483B82D517134C0895457B0E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5702AF41466B4FDCAE90B4FD /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB11FA1026BF43B98251CA0F /* Debug */,
+				23A07FD9D1004187BDB24547 /* Release */,
+				D32D4FA49B5E451F9B5BD0AB /* MinSizeRel */,
+				9849269A09504C6A93E7C4D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8600FE3196704C5F94C9E8D9 /* Build configuration list for PBXNativeTarget "glad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0899187AF144DAAB82CD52C /* Debug */,
+				2E870C28AF684C039A16980B /* Release */,
+				4656F2E2322F49AE92DBEFBF /* MinSizeRel */,
+				227C9F9149604C77B108554C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C6A4BD7C0FD4459CAD0AE966 /* Build configuration list for PBXProject "FloatGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A827EB1DD434A4989C2B8A8 /* Debug */,
+				AF9946F2E35145ACAE617159 /* Release */,
+				C253B1790D914696A9EB8700 /* MinSizeRel */,
+				2AB2FC49A71A4B638B994FB0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DDF55AA4834A42378281F100 /* Build configuration list for PBXNativeTarget "imgui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B03275932764F3381A5820B /* Debug */,
+				026D05C571114FBE8DACDA04 /* Release */,
+				D3FCA902E9E64CC5BB87DD1C /* MinSizeRel */,
+				FF73561FF9DB4CB8B81C5949 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E836FE336D1148728AFF23BE /* Project object */;
+}
