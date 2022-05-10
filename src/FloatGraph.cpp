@@ -12,19 +12,28 @@ static vml::vec2 random_vec2()
 
 // ----------------------------------------------
 
-Node::Node() : pos(0.f, 0.f)
+Node::Node() : pos( random_vec2() )
 {}
 
 Node::Node(const Node& other) : pos(other.pos)
 {
-    pos += random_vec2();
+    pos += .3f * random_vec2();
 }
 
 ImVec2 Node::coords() const
 {
     return ImPlot::PlotToPixels(ImVec2(pos.x, pos.y));
 }
+
+
 // ----------------------------------------------
+FloatGraph::FloatGraph()
+{
+    // insert first node at init
+    insert_random();
+}
+
+
 FloatGraph::~FloatGraph()
 {
     for (Node* n : nodes) delete n;
@@ -50,7 +59,7 @@ void FloatGraph::plot() const
     {
         const Node& n{ *nodes[k] };
         auto c{ n.coords() };
-        ImU32 col{ ImPlot::SampleColormapU32(5e-1f*n.speed.norm(), ImPlotColormap_Plasma) };
+        ImU32 col{ ImPlot::SampleColormapU32(.5f*n.speed.norm(), ImPlotColormap_Plasma) };
         ImPlot::GetPlotDrawList() -> AddCircleFilled(c, 10.f, col);
         ImPlot::Annotation(n.pos.x,n.pos.y,ImVec4(0,0,0,0),ImVec2(0,0),false,"%s", std::to_string(k).c_str());
     }
@@ -59,19 +68,31 @@ void FloatGraph::plot() const
 void FloatGraph::insert_random()
 {
     
-    Node* n{ (nodes.size()==0) ? new Node() : new Node(*nodes.back()) };
-    nodes.emplace_back( n );
+    
     
     size_t s{ nodes.size() };
-    
-    if (s > 1)
+    if (s >= 1)
     {
-        std::random_device rd;  //Will be used to obtain a seed for the random number engine
-        std::mt19937 gen{ rd() }; //Standard mersenne_twister_engine seeded with rd()
-        std::uniform_int_distribution<Key> distrib(0, s-2);
-        
+        // find a random parent
+        std::random_device rd;
+        std::mt19937 gen{ rd() };
+        std::uniform_int_distribution<Key> distrib(0, s-1);
         Key parent{ distrib(gen) };
-        link(parent, s-1);
+        
+        // insert new node close to parent
+        Node* n{ new Node(*nodes[parent]) };
+        nodes.emplace_back( n );
+        
+        // link parent and child
+        // s is now index of new node
+        link(parent, s);
+    }
+
+    else
+    {
+        // insert first node
+        Node* n{ new Node() };
+        nodes.emplace_back( n );
     }
 }
 

@@ -34,6 +34,7 @@ public:
 
     float movement{ 0.f };
     
+    FloatGraph();
     ~FloatGraph();
     
     void plot() const;
