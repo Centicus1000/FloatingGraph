@@ -38,7 +38,8 @@ public:
     ~FloatGraph();
     
     void plot() const;
-    void insert_random();
+    void new_random_node();
+    void new_random_edge();
     void update(float);
     
 };

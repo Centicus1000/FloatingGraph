@@ -2,12 +2,20 @@
 
 #include <random>
 
+static std::random_device rd;
+static std::mt19937 gen{ rd() };
+
 static vml::vec2 random_vec2()
 {
-    static std::random_device rd{};
-    static std::mt19937 gen{rd()};
     static std::normal_distribution<float> d{ 0.f, 2.f*vml::pi };
     return vml::polar(d(gen));
+}
+
+template<typename T>
+static T randi(T max)
+{
+    std::uniform_int_distribution<T> distrib(0, max);
+    return distrib(gen);
 }
 
 // ----------------------------------------------
@@ -30,7 +38,7 @@ ImVec2 Node::coords() const
 FloatGraph::FloatGraph()
 {
     // insert first node at init
-    insert_random();
+    new_random_node();
 }
 
 
@@ -65,19 +73,12 @@ void FloatGraph::plot() const
     }
 }
 
-void FloatGraph::insert_random()
+void FloatGraph::new_random_node()
 {
-    
-    
-    
-    size_t s{ nodes.size() };
+    Key s{ nodes.size() };
     if (s >= 1)
     {
-        // find a random parent
-        std::random_device rd;
-        std::mt19937 gen{ rd() };
-        std::uniform_int_distribution<Key> distrib(0, s-1);
-        Key parent{ distrib(gen) };
+        Key parent{ randi(s-1) };
         
         // insert new node close to parent
         Node* n{ new Node(*nodes[parent]) };
@@ -94,6 +95,15 @@ void FloatGraph::insert_random()
         Node* n{ new Node() };
         nodes.emplace_back( n );
     }
+}
+
+void FloatGraph::new_random_edge()
+{
+    Key max{ nodes.size()-1};
+    Key parent{ randi(max) };
+    Key child{ randi(max) };
+    while (child==parent && is_edge(parent, child)) child = randi(max);
+    link(parent, child);
 }
 
 inline float sq(float x) {return x*x;}

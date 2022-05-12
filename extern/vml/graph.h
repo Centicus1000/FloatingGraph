@@ -192,6 +192,20 @@ public:
     }
     ///@}
     
+    bool is_edge(Key parent, Key child) const
+    {
+        // get reference to adjacencies of parent
+        const std::vector<Edge>& elist{ edges(parent) };
+        // create a lambda to find child
+        auto is_child
+        {
+            [child] (const Edge& e) { return child == e.child; }
+        };
+        auto found{ std::find_if(elist.begin(), elist.end(), is_child) };
+        // return true if found
+        return found != elist.end();
+    }
+    
     /**
      * @brief Kanten löschen.
      *

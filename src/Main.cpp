@@ -149,9 +149,10 @@ int main(int argc, char const *argv[])
 
         ImGui::SameLine();
         ImGui::BeginChild("Right Child", ImVec2(0, -1));
-        if (ImGui::Button("Add Node")) fg.insert_random();
+        if (ImGui::Button("Add Node")) fg.new_random_node();
         ImGui::SameLine();
         ImGui::Text("#nodes = %lu", fg.nodes.size());
+        if (ImGui::Button("Add Edge")) fg.new_random_edge();
         ImGui::Separator();
         ImGui::DragFloat("Friction Damping", &fg.g_fr, 0.001f);
         ImGui::DragFloat("Random Movement", &fg.g_rm, 0.001f);
